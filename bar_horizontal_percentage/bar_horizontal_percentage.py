@@ -26,7 +26,7 @@ if __name__ == "__main__":
     data_bar1_perc_right = [data_bar1_right[i] / (data_bar1_left[i] + data_bar1_right[i]) \
         for i in range(len(data_bar1_right))]
     
-    fig, (ax0, ax1) = plt.subplots(2, 1, figsize=(8,2.5))
+    fig, (ax0, ax1) = plt.subplots(2, 1, figsize=(8,1.5))
 
     color_bar_left = '#1F1F1F'
     color_bar_right = '#9F9F9F'
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         left=reverse(data_bar1_perc_left), color=color_bar_right)#, hatch="-"*2)
 
     ax0.legend([bar_ax0_left, bar_ax0_right] , ["Legend: bar_ax0_left", "Legend: bar_ax0_right"], 
-        loc=(0.62, 1.1), fontsize=legend_font)
+        loc=(0.2, 1.2), fontsize=legend_font, ncol=2)
 
     for i, v in enumerate(reverse(data_bar0_left)):
         ax0.text(1.01, i - 0.1, "{:.2f} unit".format(v + data_bar0_right[i]), fontsize=text_font)
@@ -60,12 +60,12 @@ if __name__ == "__main__":
     ax0.set_yticks(label)
     ax0.tick_params(length=5, top=False, bottom=False, left=False, right=False, 
         labelleft=True, labelbottom=True, labelsize=tick_font)
-    ax0.set_ylabel('ax0_ylabel', fontsize=label_font, labelpad=24, rotation=60)
+    ax0.set_ylabel('ax0_ylabel', fontsize=label_font, labelpad=34, rotation=45)
 
     # remove frame
     for spine in ax1.spines.values():
         spine.set_visible(False)
-    ax1.set_ylabel('ax1_ylabel', fontsize=label_font, labelpad=20, rotation=60)
+    ax1.set_ylabel('ax1_ylabel', fontsize=label_font, labelpad=30, rotation=45)
     ax1.set_xlabel("ax1_xlabel", fontsize=label_font, labelpad=10)
 
     plt.rcParams.update({'figure.autolayout': True})
