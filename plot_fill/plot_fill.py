@@ -31,9 +31,9 @@ if __name__ == "__main__":
     ax.hlines(data_y_plot0[0], "4", "64", color='#3F3F3F', linestyles='dashed')
     ax.text(1.3, data_y_plot0[0] + 5, "{} x".format(data_y_plot0[0]), fontsize=text_font)
 
-    ax.annotate("annotation label", xy=(2, 55), xytext=(2.5, 80), arrowprops={"arrowstyle": '-|>', 'color': '#1f1f1f', 'linewidth': 2}, fontsize=text_font)
+    ax.annotate("annotation label", xy=(2, 55), xytext=(2.5, 80), arrowprops={"arrowstyle": '-|>', 'color': "#2f2f2f", 'linewidth': 2}, fontsize=text_font)
 
-    ax.legend([plot0[0], plot1[0]], ["plot0_legend", "plot1_legend"], loc=(0.6, 1.05), fontsize=label_font)
+    ax.legend([plot0[0], plot1[0]], ["plot0_legend", "plot1_legend"], loc=(0.6, 0.95), fontsize=label_font, frameon=False)
 
     ax.tick_params(length=5, top=False, bottom=False, left=True, right=False, labelleft=True, labelsize=tick_font)
     ax.get_xaxis().set_visible(True)
