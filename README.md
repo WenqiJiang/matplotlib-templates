@@ -14,6 +14,11 @@ python 3.7
 
 ![plot](images/plot.png)
 
+
+## plot_fill
+
+![plot](images/plot_fill.png)
+
 ## bar_horizontal
 
 ![bar_horizontal](images/bar_horizontal.png)
