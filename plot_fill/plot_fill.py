@@ -16,20 +16,20 @@ if __name__ == "__main__":
     tick_font = 14
     text_font = 16
 
-    dark_grey = "#3F3F3F"
+    dark_grey = "#2F2F2F"
     color_plot0 = dark_grey
     color_plot1 = dark_grey
 
     plot0 = ax.plot(data_x, data_y_plot0, color=color_plot0, marker='o', markersize=markersize)
     plot1 = ax.plot(data_x, data_y_plot1, color=color_plot1, marker='^', markersize=markersize)
 
-    ax.fill_between(data_x, data_y_plot0, data_y_plot1, hatch='/' * 2, edgecolor='black', linestyle='-', linewidth=2, color='#AFAFAF')
+    ax.fill_between(data_x, data_y_plot0, data_y_plot1, hatch='/' * 2, edgecolor='black', linestyle='-', linewidth=2, color='#CFCFCF')
     
     ax.hlines(data_y_plot1[-1], "4", "64", color='#3F3F3F', linestyles='dashed')
-    ax.text(0.3, data_y_plot1[-1] + 5, "{} x".format(data_y_plot1[-1]), fontsize=text_font)
+    ax.text(0.3, data_y_plot1[-1] + 5, "{:.2f} x".format(data_y_plot1[-1]), fontsize=text_font)
 
     ax.hlines(data_y_plot0[0], "4", "64", color='#3F3F3F', linestyles='dashed')
-    ax.text(1.3, data_y_plot0[0] + 5, "{} x".format(data_y_plot0[0]), fontsize=text_font)
+    ax.text(1.3, data_y_plot0[0] + 5, "{:.2f} x".format(data_y_plot0[0]), fontsize=text_font)
 
     ax.annotate("annotation label", xy=(2, 55), xytext=(2.5, 80), arrowprops={"arrowstyle": '-|>', 'color': "#2f2f2f", 'linewidth': 2}, fontsize=text_font)
 
@@ -37,8 +37,8 @@ if __name__ == "__main__":
 
     ax.tick_params(length=5, top=False, bottom=False, left=True, right=False, labelleft=True, labelsize=tick_font)
     ax.get_xaxis().set_visible(True)
-    ax.set_xlabel('xlabel', fontsize=label_font)
-    ax.set_ylabel('ylabel', fontsize=label_font)
+    ax.set_xlabel('xlabel', fontsize=label_font, labelpad=5)
+    ax.set_ylabel('ylabel', fontsize=label_font, labelpad=10)
     # ax.set(ylim=[0, 120])
     # ax.spines['top'].set_visible(False)
     # ax.spines['right'].set_visible(False)
