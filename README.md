@@ -12,10 +12,14 @@ python 3.7
 
 ## plot
 
+3 variables: x, y, curve
+
 ![plot](images/plot.png)
 
 
 ## plot_fill
+
+3 variables: x, y, curve
 
 ![plot](images/plot_fill.png)
 

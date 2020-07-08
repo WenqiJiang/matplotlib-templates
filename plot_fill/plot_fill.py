@@ -39,7 +39,7 @@ if __name__ == "__main__":
     ax.get_xaxis().set_visible(True)
     ax.set_xlabel('xlabel', fontsize=label_font)
     ax.set_ylabel('ylabel', fontsize=label_font)
-    ax.set(ylim=[0, 120])
+    # ax.set(ylim=[0, 120])
     # ax.spines['top'].set_visible(False)
     # ax.spines['right'].set_visible(False)
 
