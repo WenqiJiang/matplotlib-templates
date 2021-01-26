@@ -30,4 +30,12 @@ python 3.7
 
 ## bar_horizontal_percentage
 
-![bar_horizontal](images/bar_horizontal_percentage.png)
+![bar_horizontal_percentage](images/bar_horizontal_percentage.png)
+
+## grouped_bar
+
+![grouped_bar](images/grouped_bar.png)
+
+## stacked_grouped_bar
+
+![grouped_bar](images/stacked_grouped_bar.png)
