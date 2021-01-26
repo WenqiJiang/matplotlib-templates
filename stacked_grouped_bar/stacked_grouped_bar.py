@@ -28,7 +28,9 @@ ax.set_ylabel('Scores')
 ax.set_xticks(x)
 ax.set_xticklabels(x_labels)
 
-ax.legend([rects1_lower, rects1_upper, rects2_lower, rects2_upper], ["A", "B", "C", "D"], loc=(0.2, 1.05), ncol=4)
+ax.legend([rects1_lower, rects1_upper, rects2_lower, rects2_upper], ["A", "B", "C", "D"], loc=(0.2, 1.05), ncol=4, \
+  facecolor='white', framealpha=1, frameon=False)
+
 
 
 def number_single_bar(rects, bottom):

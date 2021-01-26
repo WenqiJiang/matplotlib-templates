@@ -12,8 +12,8 @@ x = np.arange(len(x_labels))  # the label locations
 width = 0.35  # the width of the bars
 
 fig, ax = plt.subplots()
-rects1  = ax.bar(x - width/2, y_men_means, width, label='Men')
-rects2 = ax.bar(x + width/2, y_women_means, width, label='Women')
+rects1  = ax.bar(x - width/2, y_men_means, width)#, label='Men')
+rects2 = ax.bar(x + width/2, y_women_means, width)#, label='Women')
 
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
@@ -21,7 +21,8 @@ ax.set_ylabel('Scores')
 ax.set_title('Scores by group and gender')
 ax.set_xticks(x)
 ax.set_xticklabels(x_labels)
-ax.legend([rects1, rects2], ["Men", "Women"], loc="upper right", ncol=1)
+ax.legend([rects1, rects2], ["Men", "Women"], loc="upper right", ncol=1, \
+  facecolor='white', framealpha=1, frameon=False)
 
 
 def autolabel(rects):
