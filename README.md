@@ -26,7 +26,17 @@ rects_CPU_47  = ax0.bar(x - width/2, latency_CPU_total_47, width, color=default_
 """
 ```
 
+<img src="images/default_colors_fivethirtyeight.png" alt="default_colors_fivethirtyeight" style="zoom:50%;" />
 
+<img src="images/default_colors_ggplot.png" alt="default_colors_ggplot" style="zoom:50%;" />
+
+<img src="images/default_colors_grayscale.png" alt="default_colors_grayscale" style="zoom:50%;" />
+
+<img src="images/default_colors_seaborn-deep.png" alt="default_colors_seaborn-deep" style="zoom:50%;" />
+
+<img src="images/default_colors_seaborn-pastel.png" alt="default_colors_seaborn-pastel" style="zoom:50%;" />
+
+<img src="images/default_colors_seaborn.png" alt="default_colors_seaborn" style="zoom:50%;" />
 
 ## bar_and_plot
 
