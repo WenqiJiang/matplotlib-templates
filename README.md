@@ -38,6 +38,16 @@ rects_CPU_47  = ax0.bar(x - width/2, latency_CPU_total_47, width, color=default_
 
 <img src="images/default_colors_seaborn.png" alt="default_colors_seaborn" style="zoom:50%;" />
 
+## Black & White Plot Series
+
+### plot
+
+plot_black_white
+
+<img src="images/plot_black_white.png" alt="plot_black_white" style="zoom: 50%;" />
+
+## Other Plot Styles
+
 ## bar_and_plot
 
 ![bar_and_plot](images/bar_and_plot.png)
