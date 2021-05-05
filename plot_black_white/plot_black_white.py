@@ -25,7 +25,7 @@ if __name__ == "__main__":
     legend_font = 14
     tick_font = 14
 
-    markersize = 10
+    markersize = 8
 
 
     """ TODO: remove unnedded plot, and select marker style for it """
@@ -63,9 +63,10 @@ if __name__ == "__main__":
     # ax.xaxis.set_ticks(np.arange(1, 9, 1), minor=True) # remove (overlap with major)
 
     """ Note: Set labels """
+    """ TODO: edit label text """
     ax.get_xaxis().set_visible(True)
     ax.set_xlabel('xlabel', fontsize=label_font)
-    ax.set_ylabel('ylabel', fontsize=label_font)
+    ax.set_ylabel('ylabel\n(unit)', fontsize=label_font)
 
 
     plt.rcParams.update({'figure.autolayout': True})
