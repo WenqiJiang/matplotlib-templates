@@ -82,3 +82,12 @@ plot_black_white
 ## stacked_grouped_bar
 
 ![grouped_bar](images/stacked_grouped_bar.png)
+
+## violin_plot
+
+![violin_plot_single](images/violin_plot_single.png)
+
+![violin_plot_multiple](images/violin_plot_multiple.png)
+
+![violin_plot_multi_class](images/violin_plot_multi_class.png)
+
