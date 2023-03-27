@@ -48,6 +48,10 @@ plot_black_white
 
 ## Other Plot Styles
 
+## bar_plot_with_error
+
+![bar_and_plot](images/bar_plot_with_error.png)
+
 ## bar_and_plot
 
 ![bar_and_plot](images/bar_and_plot.png)
