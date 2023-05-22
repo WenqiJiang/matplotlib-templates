@@ -48,7 +48,7 @@ plot_black_white
 
 ## Other Plot Styles
 
-## bar_plot_with_error
+## bar_plot_with_error_bar
 
 ![bar_and_plot](images/bar_plot_with_error.png)
 
@@ -82,6 +82,10 @@ plot_black_white
 ## grouped_bar
 
 ![grouped_bar](images/grouped_bar.png)
+
+## grouped_bar_with_error_bar
+
+![grouped_bar_with_error_bar](images/grouped_bar_with_error_bar.png)
 
 ## stacked_grouped_bar
 
